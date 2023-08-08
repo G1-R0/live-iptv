@@ -81,7 +81,6 @@ builder.defineCatalogHandler(async ({ type, id, extra, config }) => {
 			background: channel.logo,
 			genres: channel.categories,
 			logo: channel.logo,
-			name: channel.name,
 		}
 	})
 
@@ -108,7 +107,7 @@ builder.defineMetaHandler(async ({ type, id }) => {
 	})
 })
 
-builder.defineStreamHandler(async ({ type, id }) => {
+builder.defineStreamHandler(async ({ type, id, name }) => {
 	console.log("request for streams: " + type + " " + id)
 	// Docs: https://github.com/Stremio/stremio-addon-sdk/blob/master/docs/api/requests/defineStreamHandler.md
 	const streams = await getData(streamsURL);
@@ -116,7 +115,7 @@ builder.defineStreamHandler(async ({ type, id }) => {
 
 	return Promise.resolve({
 		streams: [{
-			url: stream.url,
+			url: name,
 			title: stream.channel + ' live iptv stream',
 		}]
 	})
