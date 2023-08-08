@@ -13,7 +13,7 @@ Stremio IPTV Add-on is a powerful extension that brings a wide range of Internet
 
 ## Installation
 
-1. **Visit the URL**: Go to [live-iptv.onrender.com](https://live-iptv.onrender.com).
+1. **Visit the URL**: Go to [http://3d4f6ecdd115-live-iptv.baby-beamup.club](http://3d4f6ecdd115-live-iptv.baby-beamup.club).
 2. **Click on Install**: Follow the on-screen instructions to install the add-on.
 3. **Open Stremio**: Once installed, open Stremio and navigate to the add-ons section to find the IPTV add-on.
 4. **Enjoy Streaming**: Select your desired channel and start streaming live!
