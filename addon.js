@@ -27,7 +27,7 @@ const manifest = {
 	types: ["channel"],
 	name: "live-iptv",
 	description: "Collection of publicly available IPTV channels from all over the world.",
-	behaviorHints: [{ configurable: true, configurationRequired: true }],
+	behaviorHints: [{ configurable: true, configurationRequired: false }],
 	config: [
 		{ key: 'countries', type: 'checkbox', options: ['BE', 'NL', 'UK', 'US', 'FR', 'IT'], label: 'Select Countries' },
 		{ key: 'languages', type: 'checkbox', options: ['nld', 'eng', 'fra', 'ita'], label: 'Select Languages' },
