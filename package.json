@@ -1,0 +1,12 @@
+{
+	"name": "stremio-addon-liveiptv",
+	"version": "0.0.1",
+	"description": "Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"stremio-addon-sdk": "1.1.x"
+	}
+}
